@@ -9,3 +9,8 @@ This code connects to the s3 and downloads an object with a key that is provided
 - Add AWS credentials, bucket name and key
 - Step inside the src folder and run command ```go run *.go```
 - Tests can be run by ```make mocks``` command
+
+
+# downloadFile function
+- This function is just there to show how to download a s3 object with the code that I was provided with. 
+- downloadfile works well and can be tested by calling it in  main.go file and passing it the right parameters
