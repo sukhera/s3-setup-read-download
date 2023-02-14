@@ -7,6 +7,7 @@ This code connects to the s3 and downloads an object with a key that is provided
 - Clone the Repo
 - Change .env.example to .env
 - Add AWS credentials, bucket name and key
+- Run command ```go mod tidy```
 - Run command ```go run src/*.go```
 - Tests can be run by ```make mocks``` command
 
