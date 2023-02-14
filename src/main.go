@@ -78,6 +78,5 @@ func failOnErr(err error) {
 // 2. Source control issues for different environments (CI, Local, Staging, QA, Prod etc)
 // Services like Vault, AWS Secrets Manager or GCP Secrets Manager should be preferred.
 func loadEnv() {
-	envPath := path.Join("../.env")
 	failOnErr(godotenv.Load(envPath))
 }
